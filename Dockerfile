@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY /dist/app-to-run-inside-docker /usr/share/nginx/html
+COPY /var/lib/jenkins/workspace/DockerIntegration/dist/cicdapp /usr/share/nginx/html
 EXPOSE 80
